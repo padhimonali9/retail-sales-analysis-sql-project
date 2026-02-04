@@ -10,6 +10,6 @@ CREATE TABLE IF NOT EXISTS retail_sales (
     category VARCHAR(15),
     quantity INT,
     price_per_unit float,
-    cogs float
+    cogs float,
     total_sale float
 );
