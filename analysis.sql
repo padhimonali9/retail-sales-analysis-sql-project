@@ -1,6 +1,6 @@
 -- Data Cleaning
 SELECT * FROM retail_sales
-WHERE transactions_id IS NULL
+WHERE transaction_id IS NULL
 
 SELECT * FROM retail_sales
 WHERE sale_date IS NULL
@@ -76,12 +76,12 @@ WHERE
   group by category ;
 
  -- Q.5 Write a SQL query to find all transactions where the total_sale is greater than 1000.
-  SELECT transactions_id FROM reatil_sales  WHERE  total_sale >1000;
+  SELECT transaction_id FROM reatil_sales  WHERE  total_sale >1000;
 
  
  -- Q.6 Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.
 
-  SELECT COUNT(transactions_id) as `total_no.of_transactions`, gender FROM reatil_sales
+  SELECT COUNT(transaction_id) as `total_no.of_transactions`, gender FROM reatil_sales
   GROUP BY gender;
 
 
