@@ -25,7 +25,10 @@ The dataset contains retail transaction-level data with the following key fields
 - age
 - category
 - quantity
+-  price_per_unit
+- cogs
 - total_sale
+
 
 ---
 
